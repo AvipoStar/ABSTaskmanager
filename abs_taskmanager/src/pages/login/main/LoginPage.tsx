@@ -1,17 +1,22 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/LoginPage.css";
 import { login } from "../logic/login";
+import { useDispatch } from "react-redux";
+import { auth } from "../../../config/redux/slices/workerSlice";
 
 export const LoginPage = () => {
+  const dispatch = useDispatch();
+
   const [loginData, setLoginData] = useState<{
     login: string;
     password: string;
   }>({ login: "", password: "" });
 
   const handleLogin = async () => {
-    console.log("loginData", loginData);
     const result = await login(loginData.login, loginData.password);
-    if (result) console.log("result", result);
+    if (result) {
+      dispatch(auth(result));
+    }
   };
 
   return (
