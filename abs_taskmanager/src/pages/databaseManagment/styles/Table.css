@@ -1,0 +1,24 @@
+.Table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.TableName {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.Columns {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 5% 20% 20% repeat(2, 10%) 5% 5% 15%;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}

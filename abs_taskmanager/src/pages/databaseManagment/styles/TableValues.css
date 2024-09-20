@@ -1,0 +1,25 @@
+.TableValues {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse; /* Убираем отступы между ячейками */
+  margin-top: 10px;
+}
+
+.TableString {
+  width: 100%;
+}
+
+
+
+th, td {
+  padding: 8px; /* Добавляем отступы для ячеек */
+  border: 1px solid #333; /* Добавляем границы для ячеек */
+  text-align: left; /* Выравнивание текста */
+}
+
+th {
+  position: sticky; /* Закрепляем заголовки при прокрутке */
+  top: 0;
+  z-index: 1; /* Устанавливаем порядок наложения */
+}

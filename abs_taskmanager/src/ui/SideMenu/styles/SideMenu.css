@@ -1,0 +1,32 @@
+.SideMenu {
+  color: #fff;
+  background-color: #26596b;
+  /* position: fixed; */
+  height: calc(100vh - 60px);
+  width: 50px;
+  top: 50px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  transition: all 0.2s ease-out;
+  z-index: 20;
+  padding: 5px;
+  font-size: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.SideMenuBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 19;
+  width: 100%;
+  height: 100%;
+}
+
+.MenuOpen {
+  cursor: pointer;
+}

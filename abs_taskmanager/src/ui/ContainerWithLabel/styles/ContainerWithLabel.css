@@ -1,0 +1,11 @@
+.ContainerWithLabel {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.ContainerWithLabel_Label {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: #333;
+}

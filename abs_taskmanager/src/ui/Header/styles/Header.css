@@ -1,0 +1,36 @@
+.Header {
+  height: 50px;
+  background-color: blue;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.UserModalButton {
+  cursor: pointer;
+}
+
+.SettingsModal {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.ModalInner {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 5px;
+}
+.verticalLine {
+  width: 2px;
+  background-color: #333;
+  margin: 0px 6px;
+}

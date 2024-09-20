@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+table {
+  font-size: small;
+}
+
+.TableVeiws {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
